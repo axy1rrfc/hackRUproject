@@ -2,18 +2,18 @@ const CTA = () => (
   <SectionWrapper>
     <div className="custom-screen">
       <div className="max-w-2xl mx-auto text-center">
-        <h2
-          className="text-gray-800 text-3xl font-semibold sm:text-4xl"
-          id="oss"
-        >
-          QrGPT is Proudly Open Source
-        </h2>
-        <p className="mt-3 text-gray-600">
+      <h2
+    className="text-yellow-400 text-3xl font-semibold sm:text-4xl"
+    id="oss"
+    >
+    <span className="text-green-700 font-extrabold">RU</span><span className="text-green-700">Allergic</span> is proudly open source, empowering users with accessible and transparent technology in order to figure out their <span className="text-green-700">allergens</span>.
+    </h2>
+        <p className="mt-3 text-green-700">
           Our source code is available on GitHub.
         </p>
         <a
-          href="https://github.com/Nutlope/qrGPT"
-          className="mt-4 inline-flex justify-center items-center gap-2 font-medium text-sm text-white bg-gray-800 hover:bg-gray-600 active:bg-gray-900 max-w-[200px] py-2.5 px-4 text-center rounded-lg duration-150"
+          href="https://github.com/axy1rrfc/hackRUproject.git"
+          className="mt-4 inline-flex justify-center items-center gap-2 font-medium text-sm text-green-700 bg-yellow-400 hover:bg-gray-300 active:bg-yellow-500 max-w-[200px] py-2.5 px-4 text-center rounded-lg duration-150"
         >
           <svg
             aria-hidden="true"

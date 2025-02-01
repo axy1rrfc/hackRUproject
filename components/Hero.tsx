@@ -8,26 +8,25 @@ let heroImages = ['/1.png', '/6.png', '/3.png', '/4.png', '/5.png', '/2.png'];
 export default function Hero() {
   return (
     <section>
-      <div className="custom-screen pt-28 text-gray-600">
+      <div className="custom-screen pt-28 text-green-700">
         <div className="space-y-5 max-w-4xl mx-auto text-center">
-          <h1 className="text-4xl text-gray-800 font-extrabold mx-auto sm:text-6xl">
-            Generate your next AI QR Code in seconds
+          <h1 className="text-4xl text-green-700 font-extrabold mx-auto sm:text-6xl">
+            R U Allergic?
           </h1>
           <p className="max-w-xl mx-auto">
-            QRGPT makes it simple for you to generate cool looking AI QR codes
-            in seconds, completely for free.
+            With ruAllergic, find your allergies in seconds!
           </p>
           <div className="flex items-center justify-center gap-x-3 font-medium text-sm">
             <NavLink
               href="/start"
-              className="text-white bg-gray-800 hover:bg-gray-600 active:bg-gray-900 "
+              className="text-green-700 bg-yellow-400 hover:bg-yellow-300 active:bg-yellow-500 "
             >
-              Generate your QR Code
+              Find Out Now
             </NavLink>
             <NavLink
               target="_blank"
-              href="https://github.com/Nutlope/qrGPT"
-              className="text-gray-700 border hover:bg-gray-50"
+              href="https://github.com/axy1rrfc/hackRUproject.git"
+              className="text-green-700 bg-yellow-400 hover:bg-yellow-300 active:bg-yellow-500 "
               scroll={false}
             >
               Learn more
