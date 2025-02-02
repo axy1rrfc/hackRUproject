@@ -1,16 +1,10 @@
 <a href="https://qrGPT.io">
-  <img alt="RUAllergic - Safely Munch Away" src="/foodicon.svg">
+  <img alt="RUAllergic - Safely Munch Away" src="/hackRU.png">
   <h1 align="center">RUAllergic</h1>
 </a>
 
 <p align="center">
   Detect your food allergens. Powered by Coke Zero and Espresso.
-</p>
-
-<p align="center">
-  <a href="https://nodejs.org/en">
-    <img src="/node.jpg" alt="Node.js" />
-  </a>
 </p>
 
 <p align="center">
