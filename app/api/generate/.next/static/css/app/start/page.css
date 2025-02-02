@@ -1,0 +1,73 @@
+/*!***********************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ../../../node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!../../../node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./components/ui/loading-dots.module.css ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************************/
+.loading-dots_loading__A9HFq {
+  display: inline-flex;
+  align-items: center;
+}
+
+.loading-dots_loading__A9HFq .loading-dots_spacer__kbh4S {
+  margin-right: 2px;
+}
+
+.loading-dots_loading__A9HFq span {
+  animation-name: loading-dots_blink__uEKaz;
+  animation-duration: 1.4s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: both;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 0 1px;
+}
+
+.loading-dots_loading__A9HFq span:nth-of-type(2) {
+  animation-delay: 0.2s;
+}
+
+.loading-dots_loading__A9HFq span:nth-of-type(3) {
+  animation-delay: 0.4s;
+}
+
+.loading-dots_loading2__1b8vT {
+  display: inline-flex;
+  align-items: center;
+}
+
+.loading-dots_loading2__1b8vT .loading-dots_spacer__kbh4S {
+  margin-right: 2px;
+}
+
+.loading-dots_loading2__1b8vT span {
+  animation-name: loading-dots_blink__uEKaz;
+  animation-duration: 1.4s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: both;
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 0 1px;
+}
+
+.loading-dots_loading2__1b8vT span:nth-of-type(2) {
+  animation-delay: 0.2s;
+}
+
+.loading-dots_loading2__1b8vT span:nth-of-type(3) {
+  animation-delay: 0.4s;
+}
+
+@keyframes loading-dots_blink__uEKaz {
+  0% {
+    opacity: 0.2;
+  }
+  20% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.2;
+  }
+}
+
