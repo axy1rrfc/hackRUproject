@@ -1,10 +1,11 @@
-/** @type {import('next').NextConfig} */
+// next.config.js
 const nextConfig = {
-  images: {
-    domains: [
-      'pbxt.replicate.delivery',
-      'g4yqcv8qdhf169fk.public.blob.vercel-storage.com',
-    ],
+  webpack(config, options) {
+    config.module.rules.push({
+      test: /\.worker\.js$/,
+      use: { loader: 'worker-loader' },
+    });
+    return config;
   },
 };
 
