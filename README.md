@@ -1,21 +1,20 @@
 <a href="https://qrGPT.io">
-  <img alt="QrGPT – Generate beautiful AI QR Codes in seconds." src="/public/og-image.png">
-  <h1 align="center">qrGPT</h1>
+  <img alt="RUAllergic - Safely Munch Away" src="/foodicon.svg">
+  <h1 align="center">RUAllergic</h1>
 </a>
 
 <p align="center">
-  Generate beautiful AI QR Codes in seconds. Powered by Vercel and Replicate.
+  Detect your food allergens. Powered by Coke Zero and Espresso.
 </p>
 
 <p align="center">
-  <a href="https://codeium.com?repo_name=nutlope%2Fqrgpt">
-    <img src="https://codeium.com/badges/main" alt="Codium" />
+  <a href="https://nodejs.org/en">
+    <img src="/node.jpg" alt="Node.js" />
   </a>
 </p>
 
 <p align="center">
   <a href="#tech-stack"><strong>Tech Stack</strong></a> ·
-  <a href="#deploy-your-own"><strong>Deploy Your Own</strong></a> ·
   <a href="#authors"><strong>Authors</strong></a> ·
   <a href="#credits"><strong>Credits</strong></a>
 </p>
@@ -24,30 +23,23 @@
 ## Tech Stack
 
 - Next.js [App Router](https://nextjs.org/docs/app)
-- [Replicate](https://replicate.com/) for the AI model
-- [Vercel Blob](https://vercel.com/storage/blob) for image storage
-- [Vercel KV](https://vercel.com/storage/kv) for redis storage and rate limiting
-- [Shadcn UI](https://ui.shadcn.com/) for the component library
-
-## Deploy Your Own
-
-You can deploy this template to Vercel with the button below:
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.fyi/qrGPT)
-
-Note that you'll need to:
-
-- Set up [Replicate](https://replicate.com)
-- Set up [Vercel KV](https://vercel.com/docs/storage/vercel-kv/quickstart)
-- Set up [Vercel Blob](https://vercel.com/docs/storage/vercel-blob/quickstart)
+- [Visual Studio Code](https://code.visualstudio.com/)
+- [Python](https://www.python.org/)
+- [TensorFlow](https://www.tensorflow.org/)
+- [Flask](https://ui.shadcn.com/)
+- [React](https://react.dev/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [GitHub](https://github.com/)
+- [TailwindCSS](https://tailwindcss.com/)
+- [v0](https://v0.dev/)
 
 ## Authors
 
-- Hassan El Mghari ([@nutlope](https://twitter.com/nutlope))
-- Kevin Hou ([@kevinhou22](https://twitter.com/kevinhou22))
+- Nathaniel Arteaga ([@nathanielarteaga](https://www.linkedin.com/in/nathanielarteaga/))
+- Alex Yu ([@alexyu](https://www.linkedin.com/in/alex-yu-n44/))
+- Herschelle Bumrah([@herschellebumrah](https://www.linkedin.com/in/herschelle-bumrah-711991264/))
 
 ## Credits
 
-- [Codeium](https://codeium.com?repo_name=nutlope%2Fqrgpt) and [v0](https://v0.dev/) for quick prototyping and AI autocomplete
-- [Spirals](https://spirals.vercel.app/) for great code patterns and some code (ty Steven)
-- [Lim Zi Yang](https://github.com/ZYLIM0702) for the original AI model
+- [Hassan El Mghari](https://x.com/nutlope)
+- [Kevin Hou](https://x.com/kevinhou22)
