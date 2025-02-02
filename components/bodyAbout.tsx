@@ -90,16 +90,63 @@ export default function About() {
             <ul className="list-disc list-inside">
               <li>
                 <a
-                  href="https://www.foodallergy.org/resources/facts-and-statistics"
+                  href="https://code.visualstudio.com/"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-blue-600 underline"
+                  className="text-green-700 underline font-semibold"
                 >
-                  Food Allergy Research & Education (FARE)
+                  VS Code
                 </a>
               </li>
               <li>
-                Data derived from various studies on food allergies in the U.S.
+                <a
+                  href="https://www.python.org/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-green-700 underline font-semibold"
+                >
+                  Python
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.python.org/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-green-700 underline font-semibold"
+                >
+                  TensorFlow
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.python.org/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-green-700 underline font-semibold"
+                >
+                  React
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.python.org/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-green-700 underline font-semibold"
+                >
+                  Node.js
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.python.org/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-green-700 underline font-semibold"
+                >
+                  Tailwind CSS
+                </a>
               </li>
             </ul>
           </div>
