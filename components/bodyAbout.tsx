@@ -43,7 +43,7 @@ export default function About() {
       <div className="absolute z-0 inset-0 bg-green-900 opacity-75"></div>
       <div className="relative z-10 flex flex-col items-center justify-center">
         <div className="flex flex-col items-center justify-center p-6">
-          <h1 className="text-4xl text-green-700 font-extrabold mb-6 bg-yellow-500 px-1.5 py-2 rounded">
+          <h1 className="text-4xl text-green-700 font-extrabold mb-6 bg-yellow-500 px-8 py-4 rounded-lg">
             About Allergies
           </h1>
           <div className="flex space-x-4">
@@ -85,22 +85,24 @@ export default function About() {
               />
             </motion.div>
           )}
-          <ul className="mt-4 text-sm text-green-700 max-w-lg mx-auto font-extrabold bg-yellow-500 rounded p-2">
-            <li className="text-left pl-2">Sources:</li>
-            <li className="text-center">
-              <a
-                href="https://www.foodallergy.org/resources/facts-and-statistics"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-blue-600 underline"
-              >
-                Food Allergy Research & Education (FARE)
-              </a>
-            </li>
-            <li className="text-center">
-              Data derived from various studies on food allergies in the U.S.
-            </li>
-          </ul>
+          <div className="mt-12 text-sm text-green-700 max-w-lg bg-yellow-500 rounded p-4">
+            <h3 className="font-extrabold">Sources:</h3>
+            <ul className="list-disc list-inside">
+              <li>
+                <a
+                  href="https://www.foodallergy.org/resources/facts-and-statistics"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-blue-600 underline"
+                >
+                  Food Allergy Research & Education (FARE)
+                </a>
+              </li>
+              <li>
+                Data derived from various studies on food allergies in the U.S.
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>

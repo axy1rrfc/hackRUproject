@@ -11,7 +11,7 @@ const Navbar = () => {
 
   const navigation = [
     // { title: 'Testimonials', path: '#testimonials' },
-    { title: 'Homepage', path: '/' },
+    { title: 'Home', path: '/' },
   ];
 
   const pathname = usePathname();
@@ -42,8 +42,14 @@ const Navbar = () => {
         <div className="custom-screen items-center mx-auto md:flex">
           <div className="flex items-center justify-between py-8 md:py-3 md:block">
             <Link href="/" className="flex items-center gap-3">
-              <Image src="/foodicon.svg" alt="logo" width={30} height={30} className="border-4 border-green-700 rounded-full" />
-              <div className="text-green-700 font-bold text-lg hover:scale-105">RUAllergic</div>
+              <Image
+                src="/foodicon.svg"
+                alt="logo"
+                width={33}
+                height={33}
+                className="border-4 border-green-700 rounded-full"
+              />
+              <div className="text-green-700 font-bold text-lg">RUAllergic</div>
             </Link>
             <div className="md:hidden">
               <button
@@ -51,9 +57,7 @@ const Navbar = () => {
                 aria-label="Open the menu"
                 className="text-gray-500 hover:text-gray-800"
                 onClick={handleNavMenu}
-              >
-
-              </button>
+              ></button>
             </div>
           </div>
           <div
@@ -64,7 +68,7 @@ const Navbar = () => {
             <ul className="text-green-700 justify-end items-center space-y-6 md:flex md:space-x-6 md:space-y-0 md:text-gray-600 md:font-medium">
               {navigation.map((item, idx) => {
                 return (
-                  <li key={idx} className="text-green-700 duration-150 hover:scale-105">
+                  <li key={idx} className="text-green-700 text-base">
                     <Link href={item.path} className="block">
                       {item.title}
                     </Link>
