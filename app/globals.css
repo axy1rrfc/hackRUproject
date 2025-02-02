@@ -3,7 +3,20 @@
 @tailwind utilities;
 
 .custom-screen {
-  @apply max-w-screen-xl mx-auto px-4 md:px-8;
+  @apply max-w-screen-xl mx-auto px-4 md:py-2;
+}
+.bg-custom {
+  background-image: url('/backgroundImage.webp'); 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: realtive;
+}
+
+.bg-overlay {
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 68, 0, 0,.9); 
 }
 
 .gradient-border {

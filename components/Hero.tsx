@@ -3,48 +3,39 @@
 import Image from 'next/image';
 import NavLink from './NavLink';
 
-let heroImages = ['/1.png', '/6.png', '/3.png', '/4.png', '/5.png', '/2.png'];
+
 
 export default function Hero() {
   return (
     <section>
+    <div className="relative w-full min-h-screen bg-custom flex flex-col items-center justify-center p-6 bg-fixed">
+    <div className="absolute z-0 inset-0 bg-green-900 opacity-75"></div>
+    <div className="relative z-10 flex flex-col items-center justify-center">
       <div className="custom-screen pt-28 text-green-700">
         <div className="space-y-5 max-w-4xl mx-auto text-center">
-          <h1 className="text-4xl text-green-700 font-extrabold mx-auto sm:text-6xl">
+          <h1 className="text-4xl text-yellow-500 font-extrabold mx-auto sm:text-8xl">
             R U Allergic?
           </h1>
-          <p className="max-w-xl mx-auto">
-            With ruAllergic, find your allergies in seconds!
+          <p className="inline-block bg-yellow-500 text-green-700 font-semibold text-lg px-6 py-3 rounded-lg shadow-md">
+            With RUAllergic, find your allergies in seconds!
           </p>
           <div className="flex items-center justify-center gap-x-3 font-medium text-sm">
             <NavLink
               href="/start"
-              className="text-green-700 bg-yellow-400 hover:bg-yellow-300 active:bg-yellow-500 "
+              className="px-6 py-2 text-lg w-48 text-green-700 bg-yellow-500 rounded-lg hover:scale-105 transition-transform duration-300"
             >
               Find Out Now
             </NavLink>
             <NavLink
-              target="_blank"
-              href="https://github.com/axy1rrfc/hackRUproject.git"
-              className="text-green-700 bg-yellow-400 hover:bg-yellow-300 active:bg-yellow-500 "
-              scroll={false}
+              href="/about"
+              className="px-6 py-2 text-lg w-48 text-green-700 bg-yellow-500 rounded-lg hover:scale-105 transition-transform duration-300"
             >
               Learn more
             </NavLink>
           </div>
-          <div className="grid sm:grid-cols-3 grid-cols-2 gap-4 pt-10">
-            {heroImages.map((image, idx) => (
-              <Image
-                key={idx}
-                alt="image"
-                src={image}
-                width={500}
-                height={500}
-                className="rounded-lg"
-              />
-            ))}
-          </div>
         </div>
+      </div>
+      </div>
       </div>
     </section>
   );

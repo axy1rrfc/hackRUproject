@@ -139,10 +139,13 @@ const Body = ({
   );
 
   return (
+    <div className="relative w-full min-h-screen bg-custom flex flex-col items-center justify-center p-6 bg-fixed">
+      <div className="absolute inset-0 bg-green-900 opacity-75"></div>
+    <div className="relative z-10 flex flex-col items-center justify-center">
     <div className="flex justify-center items-center flex-col w-full lg:p-0 p-4 sm:mb-28 mb-0">
       <div className="max-w-6xl w-full grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-12 mt-10">
         <div className="col-span-1">
-          <h1 className="text-3xl font-bold mb-10">Generate a QR Code</h1>
+          <h1 className="text-3xl font-bold mb-10">Let's find out what you have!</h1>
           <Form {...form}>
             <form onSubmit={form.handleSubmit(handleSubmit)}>
               <div className="flex flex-col gap-4">
@@ -267,6 +270,8 @@ const Body = ({
         </div>
       </div>
       <Toaster />
+    </div>
+    </div>
     </div>
   );
 };
