@@ -44,7 +44,7 @@ export default function About() {
       <div className="relative z-10 flex flex-col items-center justify-center">
         <div className="flex flex-col items-center justify-center p-6">
           <h1 className="text-4xl text-green-700 font-extrabold mb-6 bg-yellow-500 px-8 py-4 rounded-lg">
-            About Allergies
+            About Food Allergies
           </h1>
           <div className="flex space-x-4">
             {subjects.map((subject) => (
@@ -85,7 +85,7 @@ export default function About() {
               />
             </motion.div>
           )}
-          <div className="mt-12 text-sm text-green-700 max-w-lg bg-yellow-500 rounded p-4">
+          <div className="mt-12 text-sm text-green-700 max-w-lg bg-yellow-500 rounded px-4 py-4">
             <h3 className="font-extrabold">Sources:</h3>
             <ul className="list-disc list-inside">
               <li>
@@ -110,7 +110,7 @@ export default function About() {
               </li>
               <li>
                 <a
-                  href="https://www.python.org/"
+                  href="https://www.tensorflow.org/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-green-700 underline font-semibold"
@@ -120,7 +120,7 @@ export default function About() {
               </li>
               <li>
                 <a
-                  href="https://www.python.org/"
+                  href="https://react.dev/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-green-700 underline font-semibold"
@@ -130,22 +130,22 @@ export default function About() {
               </li>
               <li>
                 <a
-                  href="https://www.python.org/"
+                  href="https://nextjs.org/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-green-700 underline font-semibold"
                 >
-                  Node.js
+                  Next.js
                 </a>
               </li>
               <li>
                 <a
-                  href="https://www.python.org/"
+                  href="https://flask.palletsprojects.com/en/stable/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-green-700 underline font-semibold"
                 >
-                  Tailwind CSS
+                  Flask
                 </a>
               </li>
             </ul>

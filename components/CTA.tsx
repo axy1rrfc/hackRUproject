@@ -2,12 +2,16 @@ const CTA = () => (
   <SectionWrapper>
     <div className="custom-screen">
       <div className="max-w-2xl mx-auto text-center">
-      <h2
-    className="text-yellow-400 text-3xl font-semibold sm:text-4xl"
-    id="oss"
-    >
-    <span className="text-green-700 font-extrabold">RU</span><span className="text-green-700">Allergic</span> is proudly open source, empowering users with accessible and transparent technology in order to figure out their <span className="text-green-700 font-extrabold">allergens</span>.
-    </h2>
+        <h2
+          className="text-yellow-400 text-3xl font-semibold sm:text-4xl"
+          id="oss"
+        >
+          <span className="text-green-700 font-extrabold">RU</span>
+          <span className="text-green-700">Allergic</span> is proudly open
+          source, empowering users with accessible and transparent technology in
+          order to figure out their{' '}
+          <span className="text-green-700 font-extrabold">allergens</span>.
+        </h2>
         <p className="mt-3 text-green-700">
           Our source code is available on GitHub.
         </p>

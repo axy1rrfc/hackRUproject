@@ -2,25 +2,12 @@ import { V0Logo } from './v0logo';
 
 const Footer = () => (
   <footer>
-    <div className="custom-screen pt-2">
-      <div className="mt-12 px-3 border-4 border-green-700 rounded-full items-center justify-between flex bg-green-700 w-full">
+    <div className="custom-screen mb-6 mt-6 bg-yellow-500 rounded-full">
+      <div className=" px-3 border-4 border-green-700 rounded-full items-center justify-between flex bg-green-700 w-full">
         <p className="text-yellow-500">
-          Created by{' '}
-          <a
-
-          >
-          Hersh
-          </a>{' '}
-          Alex{' '}
-          <a
-          >
-          </a>{' '}
-          and{' '}
-          <a
-          >
-          Nathaniel Arteaga
-          </a>
-          
+          Created by <a>Herschelle Bumrah</a>
+          {', '}
+          <a></a>Alex Yu <a></a> and <a>Nathaniel Arteaga</a>
         </p>
         <div className="flex items-center gap-x-100 text-yellow-500">
           <a

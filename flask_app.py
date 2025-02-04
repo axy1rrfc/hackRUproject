@@ -9,7 +9,7 @@ app = Flask(__name__)
 CORS(app, resources={r"/video_feed": {"origins": "http://localhost:3000"}})  # Allow CORS for the video feed route
 
 # Load YOLOv8 model (use yolov8n.pt or any other model)
-model = YOLO("public/yolov8s.pt")  # Ensure the path to the model is correct
+model = YOLO("Mark2.keras")  # Ensure the path to the model is correct
 
 # OpenCV Video Capture
 camera = cv2.VideoCapture(0)  # Change index if needed
